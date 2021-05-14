@@ -1,0 +1,542 @@
+.container {
+    width: 100vw;
+    height: 560px;
+    background-color:sienna;
+    padding-top: 25px;
+}
+.header{
+    display: flex;
+}
+.h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-left: 195px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 600px;
+}
+ul li{
+    width: 70px;
+    height: 30px;
+    margin-left:10px;  
+    background-color:rgb(69, 71, 71);
+    padding-top: 15px;
+    border-radius: 1px;
+}
+#log{
+    padding-left: 30px;
+    cursor:pointer;
+    border-radius: 3px;
+}
+#log:hover{
+    background-color: black;
+    color: white;  
+    transition: 0.3s;
+
+}
+.sign{
+    padding-left: 23px;
+    cursor:pointer;
+    border-radius: 3px;
+}.sign:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.hr{
+    width: 100vw;
+    height: 2px;
+    background-color: rgb(71, 67, 67);
+}
+#ul ol li{
+color:white;
+list-style: none;
+}
+#ul .li ol{
+    display: flex;
+    margin-left:70px;
+    cursor:pointer;
+}
+#ul .li ol li{
+    margin-left:50px;
+    font-size: 13px;
+    border-radius:2px;
+}
+ #home{
+    width: 60px;
+    height: 20px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    border-radius: 3px;
+}
+form button{
+    width: 60px;
+    height: 55px;
+    background-color: green;
+    color:white;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid green;
+    cursor:pointer;
+}
+form button:hover{
+    background-color:white;
+    color: green;
+    transition: 0.3s;
+}
+button img{
+    width: 20px;
+    height:20px;
+}
+form input{
+    width: 400px;
+    height: 50px; 
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+.aside{
+    color: white;
+    padding-left: 160px;
+    padding-top: 60px;
+}
+.aside h1{
+    font-size: 50px;
+}
+.h3{
+    display: flex;
+}
+.h3 h3{
+    color: rgb(172, 167, 167);
+}
+.h3 button{
+    width: 80px;
+    height: 35px;
+    background-color:rgb(80, 75, 80);
+    border-radius: 4px;
+    border: 1px solid white;
+    color: rgb(197, 184, 184);
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor:pointer;
+}
+.h3 button:hover{
+    background-color:rgb(18, 19, 18);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.aside h4{
+    color: rgb(218, 209, 209);
+    font-size: 20px;
+}
+span{
+    color: white;
+    font-size: 30px;
+}
+.article{
+    width: 100vw;
+    height: 570px;
+    background-color: white;
+}
+.article h2{
+padding-top: 100px;
+padding-left: 160px;
+}
+.div{
+    display: flex;
+    margin-left: 160px;
+    padding-top: 10px;
+}
+.div2{
+    display: flex;
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+.odom{
+    width: 250px;
+    height: 150px;
+    border: 1px solid rgb(197, 188, 188);  
+    margin-left: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor:pointer;
+}
+.odom img{
+    width: 80px;
+    height: 60px;
+}
+.article .div .odom:hover{
+    background-color: rgb(182, 172, 172);
+    color:white;
+    transition: 0.3s;
+
+}
+.auto{
+    width: 250px;
+    height: 150px;
+    border: 1px solid rgb(197, 188, 188); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor:pointer;
+}
+.auto img{
+    width: 80px;
+    height: 60px; 
+}
+.article .div .auto:hover{
+    background-color: rgb(182, 172, 172);
+    color:white;
+    transition: 0.3s;
+}
+.accaunt{
+    width: 250px;
+    height: 150px;
+    border: 1px solid rgb(197, 188, 188); 
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor:pointer;
+}
+.accaunt img{
+    width: 80px;
+    height: 60px;
+    color: green;
+}
+.article .div .accaunt:hover{
+    background-color: rgb(182, 172, 172);
+    color:white;
+    transition: 0.3s;
+}
+.heal{
+    width: 250px;
+    height: 150px;
+    border: 1px solid rgb(197, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor:pointer;
+}
+.heal img{
+    width: 80px;
+    height: 60px;
+}
+.article .div .heal:hover{
+    background-color: rgb(182, 172, 172);
+    color:white;
+    transition: 0.3s;
+}
+.rearan{
+    width: 250px;
+    height: 150px;
+    border: 1px solid rgb(197, 188, 188); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor:pointer;
+}
+.rearan img{
+    width: 80px;
+    height: 60px; 
+}
+.article .div2 .rearan:hover{
+    background-color: rgb(182, 172, 172);
+    color:white;
+    transition: 0.3s;
+}
+.telecom{
+    width: 250px;
+    height: 150px;
+    border: 1px solid rgb(197, 188, 188); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor:pointer;
+}
+.telecom img{
+    width: 80px;
+    height: 60px; 
+}.article .div2 .telecom:hover{
+    background-color: rgb(182, 172, 172);
+    color:white;
+    transition: 0.3s;
+}
+
+.desiogn{
+    width: 250px;
+    height: 150px;
+    border: 1px solid rgb(197, 188, 188); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor:pointer;
+}
+.desiogn img{
+    width: 80px;
+    height: 60px;  
+}
+.article .div2 .desiogn:hover{
+    background-color: rgb(182, 172, 172);
+    color:white;
+    transition: 0.3s;
+}
+.educcatign{
+    width: 250px;
+    height: 150px;
+    border: 1px solid rgb(197, 188, 188); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor:pointer;
+}
+.educcatign img{
+    width: 80px;
+    height: 60px;  
+}
+.article .div2 .educcatign:hover{
+    background-color: rgb(182, 172, 172);
+    color:white;
+    transition: 0.3s;
+}
+.article button{
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgb(187, 179, 179);
+    border-radius: 3px;
+    margin-left: 580px;
+    color: white;
+    background-color: green;
+    cursor:pointer;
+}
+.article button:hover{
+    background-color: white;
+    color:green;
+    transition: 0.3s;
+}
+.title{
+    width: calc(100% - 300px);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+.leftSide{
+    width: 65%;
+}
+.leftSide .box{
+    width: 100%;
+    height: 150px;
+    border-top:1px solid #ccc ;
+    border-bottom:1px solid #ccc ;
+    display: flex;
+    align-items: center;
+}
+.box:hover{
+    background-color: rgb(247, 239, 239);
+    transition: 0.3s;
+}
+.box:first-child {
+    border-top:2px solid #ccc ;
+  }
+.box:last-child {
+    border-bottom:2px solid #ccc ;
+  }
+  .leftSide .box__{
+    width: 100%;
+    height: 150px;
+    border-top:1px solid #ccc ;
+    border-bottom:1px solid #ccc ;
+    display: flex;
+    align-items: center;
+}
+.box__:hover{
+    background-color: rgb(247, 239, 239);
+    transition: 0.3s;
+}
+.box__:first-child {
+    border-top:2px solid #ccc ;
+  }
+.box__:last-child {
+    border-bottom:2px solid #ccc ;
+  }
+
+.leftSide .img{
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    margin-right: 30px;
+    margin-left: 40px;
+}
+.leftSide .info{
+    width: 60%;
+}
+.leftSide .info i{
+    color: rgb(117, 117, 117);
+    padding: 5px;
+}
+.rightSide{
+    width: 30%;
+}
+.rightSide .apply{
+    width: 170px;
+    height: 500px;
+    margin-left: 100px;
+    padding: 30px;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 0 65px rgba(0, 0, 0, 0.12)
+;
+border-radius: 5px;
+}
+.rightSide .apply:hover{
+    background-color:rgb(247, 239, 239);
+    transition: 0.3s;
+}
+.rightSide .apply button{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(6, 194, 16);
+    border: none;
+    outline: none;
+    color: white;
+    cursor:pointer;
+}
+.rightSide .apply button:hover{
+    background-color: white;
+    color: rgb(6, 194, 16);
+    border: 1px solid rgb(6, 194, 16);
+    transition: 0.3s;
+}
+.part__time{
+    position: relative;
+    top: -3px;
+    color: white;
+    padding: 5px;
+    font-size: xx-small;
+    background-color: orangered;
+    cursor:pointer;
+}
+.part__time:hover{
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+    transition: 0.3s;
+}
+.rightSide .apply p{
+    margin: 15px 0;
+}
+.apply h3{
+    margin-bottom: 10px;
+}
+.full__time{
+    position: relative;
+    top: -3px;
+    font-size: xx-small;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    flex-wrap: wrap;
+    cursor:pointer;
+}
+.full__time:hover{
+  background-color: white;
+  color: blue;  
+  border:1px solid blue;
+  transition: 0.3s;
+}
+.temporany{
+    position: relative;
+    top: -3px;
+    font-size: xx-small;
+    padding: 5px;
+    background-color: rgb(255, 0, 55);
+    color: white;
+    flex-wrap: wrap;
+    cursor:pointer;
+}
+.temporany:hover{
+    background-color: white;
+    color:rgb(255, 0, 55);
+    border: 1px solid rgb(255, 0, 55);
+    transition: 0.3s;
+}
+.fireelance{
+    position: relative;
+    top: -3px;
+    font-size: xx-small;
+    padding: 5px;
+    background-color: rgb(88, 247, 15);
+    color: white;
+    flex-wrap: wrap;
+    padding: 5px;
+    cursor:pointer;
+}
+.fireelance:hover{
+    background-color: white;
+    color: rgb(88, 247, 15);
+    border: 1px solid rgb(88, 247, 15);
+    transition: 0.3s;
+}
+.BTN button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(20, 179, 20);
+    color: white;
+    border: 1px solid rgb(36, 107, 36);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 300px;
+    cursor:pointer;
+}
+.BTN button:hover{
+    background-color: white;
+    color: rgb(20, 179, 20);
+    border: 1px solid rgb(20, 179, 20);
+    transition: 0.3s;
+}
+.BTN i{
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
